@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Input from "../components/Input";
 import Button from "../components/Button";
 import AuthLayout from "../components/AuthLayout";
 
 export default function LoginPage() {
+    const navigate = useNavigate();
     const [form, setForm] = useState({ username: "", password: "" });
     const [msg, setMsg] = useState("");
 
@@ -13,6 +15,7 @@ export default function LoginPage() {
         try {
             const res = await axios.post("http://127.0.0.1:8000/api/accounts/login/", form);
             setMsg(`✅ Welcome ${res.data.user}!`);
+            navigate("/dashboard");
         } catch {
             setMsg("❌ Invalid credentials.");
         }
