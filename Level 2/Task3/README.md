@@ -1,16 +1,20 @@
-# React + Vite
+# 🎨 Level 2 - Task 3: SPA + GitHub Finder (Tailwind CSS Integrated)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An enhanced version of the GitHub Finder project combined with a SPA layout and **Tailwind CSS styling**.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React.js, Tailwind CSS |
+| API | GitHub REST API |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Features
+- Animated typing effect on home page
+- Integrated GitHub Finder API tool
+- Responsive grid cards with Tailwind utilities
+- Modern glassmorphic UI with smooth hover effects
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Learning Outcomes
+- Combined multiple React pages with API integration
+- Mastered Tailwind CSS for modern UI design
+- Learned component-based styling with utility classes

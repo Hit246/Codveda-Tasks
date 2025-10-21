@@ -1,16 +1,34 @@
-# React + Vite
+# ⚛️ Level 2 - Task 1: Single Page Application (SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React.js** Single Page Application demonstrating **routing**, **component-based architecture**, and **dynamic rendering**.
 
-Currently, two official plugins are available:
+## 🚀 Overview
+The SPA includes multiple pages (Home, About, Contact) managed using **React Router** without page reloads.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React.js, CSS |
 
-## React Compiler
+## ⚙️ Features
+- Client-side routing using React Router
+- Component reusability and clean layout
+- Responsive design and smooth navigation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 File Structure
+```
+src/
+├── components/
+|   ├── Navbar.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+├── App.jsx
+└── main.jsx
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Learning Outcomes
+- Learned SPA concepts and routing
+- Managed state and props efficiently
+- Improved component modularity
