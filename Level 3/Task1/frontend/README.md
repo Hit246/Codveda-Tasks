@@ -10,7 +10,7 @@ A full-stack **blog application** built using **Django (Python)** for backend an
 | Database | SQLite |
 
 ## ⚙️ Features
-- CRUD blog posts (Create, Read, Update, Delete)
+- Authentication
 - REST API endpoints for post management
 - Frontend fetches data dynamically from Django backend
 - Styled responsive UI with Tailwind
