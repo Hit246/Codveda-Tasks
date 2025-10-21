@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)yg$!y=h+r@rf(9k40v*z0z3&c&_hyoz2k*0pm&m82=qi9en_$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['your-backend-name.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['codveda-tasks.onrender.com', 'localhost']
 
 
 # Application definition

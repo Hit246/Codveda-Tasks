@@ -13,7 +13,7 @@ export default function LoginPage() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://127.0.0.1:8000/api/accounts/login/", form);
+            const res = await axios.post("https://codveda-tasks.onrender.com/api/accounts/login/", form);
             setMsg(`✅ Welcome ${res.data.user}!`);
             navigate("/dashboard");
         } catch {

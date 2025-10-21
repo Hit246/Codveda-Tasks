@@ -10,7 +10,7 @@ export default function ResetPasswordPage() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://127.0.0.1:8000/api/accounts/reset-password/", { email });
+            await axios.post("https://codveda-tasks.onrender.com/api/accounts/reset-password/", { email });
             setMsg("Password reset link sent! Check your email.");
         } catch {
             setMsg("Error: Unable to send reset link.");

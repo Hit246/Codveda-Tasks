@@ -10,7 +10,7 @@ export default function DashboardPage() {
     const [desc, setDesc] = useState("");
     const [message, setMessage] = useState({ text: "", type: "" });
 
-    const apiBase = "http://127.0.0.1:8000/api/tasks/";
+    const apiBase = "https://codveda-tasks.onrender.com/api/tasks/";
 
     const showMessage = (text, type = "info") => {
         setMessage({ text, type });

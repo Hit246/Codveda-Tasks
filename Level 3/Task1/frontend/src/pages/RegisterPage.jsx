@@ -17,7 +17,7 @@ export default function RegisterPage() {
         e.preventDefault();
         setMsg(""); // clear old message
         try {
-            const res = await axios.post("http://127.0.0.1:8000/api/accounts/register/", {
+            const res = await axios.post("https://codveda-tasks.onrender.com/api/accounts/register/", {
                 username: form.username,
                 email: form.email,
                 password: form.password,

@@ -12,7 +12,7 @@ export default function ResetConfirmPage() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post(`http://127.0.0.1:8000/api/accounts/reset-password/${uid}/${token}/`, {
+            await axios.post(`https://codveda-tasks.onrender.com/api/accounts/reset-password/${uid}/${token}/`, {
                 password,
             });
             setMsg("Password reset successful! You can now log in.");
