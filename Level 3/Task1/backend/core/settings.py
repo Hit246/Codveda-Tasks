@@ -64,6 +64,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://django-blog-demo.netlify.app",
 ]
 
+CORS_ALLOW_CREDENTIALS = True
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.SessionAuthentication',
