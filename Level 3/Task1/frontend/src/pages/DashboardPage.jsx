@@ -19,7 +19,7 @@ export default function DashboardPage() {
 
     const fetchTasks = async () => {
         try {
-            const res = await axios.get(apiBase, { withCredentials: true });
+            const res = await axios.get(apiBase);
             setTasks(res.data);
         } catch (err) {
             console.error("Fetch tasks error:", err.response?.data || err.message);
